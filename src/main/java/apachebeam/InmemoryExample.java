@@ -25,7 +25,8 @@ public class InmemoryExample {
 						(CustomerEntity cust) -> cust.getName()));
 		
 		pStrList.apply(TextIO.write().to(
-				"customer.csv").withNumShards(1).withSuffix(".csv"));
+				"/Users/salonijain/Documents/apachebeam/apachebeam/apachebeam/target/output/customer.csv")
+				.withNumShards(1).withSuffix(".csv"));
 		
 		p.run();
 	}

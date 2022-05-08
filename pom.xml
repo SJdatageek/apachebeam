@@ -24,7 +24,7 @@
     <configuration>
       <archive>
         <manifest>
-          <mainClass>section2.LocalFileExample</mainClass>
+          <mainClass>apachebeam.LocalFileExample</mainClass>
         </manifest>
       </archive>
       <descriptorRefs>
